@@ -30,7 +30,7 @@ _Данный код на [GitHub](https://github.com/keeniGithub/InSDL_Clicker)
 ├── header - Модули для игры
 ├── image - Изображения
 ├── include - Модули и фреймворки
-├── lib - Бибилиотеки 
+├── lib - Библиотеки 
 ├── src - Исходный код
 ```
 
