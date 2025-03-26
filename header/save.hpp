@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Сохранения прогресса
 void saveGame(int count, int clicker, int upgPrice) {
     ofstream saveFile("save.txt");
     if (saveFile.is_open()) {
@@ -12,6 +13,7 @@ void saveGame(int count, int clicker, int upgPrice) {
     }
 }
 
+// Загрузка прогресса
 void loadGame(int &count, int &clicker, int &upgPrice) {
     ifstream saveFile("save.txt");
     if (saveFile.is_open()) {
